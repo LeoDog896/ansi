@@ -1,7 +1,7 @@
 <script lang="ts">
-	import Tailwindcss from "./Tailwindcss.svelte"
-
+    import Tailwindcss from "./Tailwindcss.svelte";
+    import Editor from "./Editor.svelte";
 </script>
 
-<Tailwindcss />
-<p style="border-solid border-2">Hello World!</p>
+<Tailwindcss/>
+<Editor/>
